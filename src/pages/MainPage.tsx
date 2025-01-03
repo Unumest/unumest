@@ -47,7 +47,8 @@ export default function MainPage() {
                     }}
                     style={{cursor: 'pointer'}}
                 >
-                    <Logo multi={10} />
+                    {/* <Logo multi={10} /> */}
+                    <PixelWriting str={'Unumset'} fontProps={{size: 10}} />
                 </div>
                 <div className={styles.headerText}>
                     <PixelWriting
