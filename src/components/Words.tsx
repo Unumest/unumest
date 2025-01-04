@@ -1,8 +1,8 @@
 import PixelWriting from './PixelWriting';
-import {ALPHABAT, NUM, SPECIAL_WORDS} from '../configs/configs';
+import {ALPHABAT, DEFAULT_FONT_SIZE, NUM, SPECIAL_WORDS} from '../configs/configs';
 
 export default function Words() {
-    const FONT_SIZE = 7;
+    const FONT_SIZE = DEFAULT_FONT_SIZE;
 
     return (
         <div>

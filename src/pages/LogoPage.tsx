@@ -15,7 +15,7 @@ export default function LogoPage() {
                 style={{cursor: 'pointer'}}
             >
                 {/* <Logo multi={8} /> */}
-                <PixelWriting str={'Unumset'} fontProps={{size: 10}} />
+                <PixelWriting str={'UnumEst'} fontProps={{size: 10}} />
             </div>
         </div>
     );

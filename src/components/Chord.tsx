@@ -55,7 +55,6 @@ export default function Chord(props: AudioContextProps) {
                     })}
                 </div>
             </div>
-            )
         </div>
     );
 }

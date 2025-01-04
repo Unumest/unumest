@@ -1,4 +1,5 @@
 import {chordList, list, START_NOTE} from '../configs/chords';
+import {DEFAULT_FONT_SIZE} from '../configs/configs';
 import {FREQUENCIES} from '../configs/frequencies';
 import PixelWriting from './PixelWriting';
 
@@ -10,7 +11,7 @@ interface PlayChordButtonProps {
 }
 
 const PlayChordButton = ({keyCode, chord, audioContext, text}: PlayChordButtonProps) => {
-    const FONT_SIZE = 10;
+    const FONT_SIZE = DEFAULT_FONT_SIZE;
 
     const playNote = (frequency: any, startTime: number, duration: number) => {
         const oscillator = audioContext.createOscillator();

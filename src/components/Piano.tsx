@@ -3,9 +3,10 @@ import {FREQUENCIES} from '../configs/frequencies';
 import {PIANO_KEY} from '../configs/pianoKey';
 import AudioContextProps from '../interfaces/AudioContextProps';
 import PixelWriting from './PixelWriting';
+import {DEFAULT_FONT_SIZE} from '../configs/configs';
 
 const Piano: React.FC<AudioContextProps> = ({audioContext}) => {
-    const FONT_SIZE = 5;
+    const FONT_SIZE = DEFAULT_FONT_SIZE;
 
     // 주어진 주파수로 사인파 소리를 생성하는 함수
     const playNote = (frequency: number) => {

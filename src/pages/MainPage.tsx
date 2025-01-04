@@ -4,7 +4,7 @@ import Logo from '../components/Logo';
 import {useState} from 'react';
 import Chord from '../components/Chord';
 import PixelButton from '../components/PixelButton';
-import {MENU} from '../configs/configs';
+import {DEFAULT_FONT_SIZE, MENU} from '../configs/configs';
 import Words from '../components/Words';
 import QrCode from '../components/QrCode';
 import Piano from '../components/Piano';
@@ -13,7 +13,7 @@ export default function MainPage() {
     const [haederName, setHeaderName] = useState('');
     const [content, setContent] = useState('');
     const [isMemu, setIsMemu] = useState(false);
-    const FONT_SIZE = 3;
+    const FONT_SIZE = DEFAULT_FONT_SIZE;
     const HEADER_SIZE = 10;
 
     const [audioContext, setAudioContext] = useState<AudioContext | null>(null);
@@ -48,7 +48,7 @@ export default function MainPage() {
                     style={{cursor: 'pointer'}}
                 >
                     {/* <Logo multi={10} /> */}
-                    <PixelWriting str={'Unumset'} fontProps={{size: 10}} />
+                    <PixelWriting str={'UnumEst'} fontProps={{size: 10}} />
                 </div>
                 <div className={styles.headerText}>
                     <PixelWriting
@@ -100,7 +100,7 @@ export default function MainPage() {
                     }}
                     style={{cursor: 'pointer'}}
                 >
-                    <PixelWriting str={'github'} fontProps={{size: FONT_SIZE}} />
+                    <PixelWriting str={'Footer'} fontProps={{size: FONT_SIZE}} />
                 </div>
             </div>
         </div>
