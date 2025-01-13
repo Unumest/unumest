@@ -11,4 +11,4 @@ export const MENU: Array<string> = ['text', 'chord', 'piano', 'qr code', 'font']
 export const ALPHABAT = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 export const NUM = '1234567890';
 export const SPECIAL_WORDS = '!@#$%^&*()_+{}\\"\'<>?';
-export const DEFAULT_FONT_SIZE = 6;
+export const DEFAULT_FONT_SIZE = 5;
