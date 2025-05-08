@@ -10,6 +10,7 @@ export default function Words() {
             <PixelWriting str={NUM} fontProps={{size: FONT_SIZE}} />
             <PixelWriting str={SPECIAL_WORDS} fontProps={{size: FONT_SIZE}} />
             <PixelWriting str={'heartis.me'} fontProps={{size: FONT_SIZE}} />
+            <PixelWriting str={'My name is\nGimgongta.'} fontProps={{size: FONT_SIZE}} />
         </div>
     );
 }

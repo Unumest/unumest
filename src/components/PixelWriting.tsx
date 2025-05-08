@@ -93,7 +93,7 @@ const PixelSentence = React.memo((props: PixelWritingProps) => {
 
 export default function PixelWriting(props: PixelWritingProps) {
     const sentences = props.str.split('\n');
-    const GAP_MULTIPLIER = 10;
+    const GAP_MULTIPLIER = 1;
     const CONTAINER_CLASS = 'pixelWriting';
     const mergedFontProps = {...DEFAULT_PIXEL_FONT_PROPS, ...props.fontProps};
     return (
